@@ -3,7 +3,7 @@
       +DLL
 
 
-     https://github.com/hasherezade/malware_analysis
+   https://github.com/hasherezade/malware_analysis
 
      Decoders for TrickBot's elements
 
