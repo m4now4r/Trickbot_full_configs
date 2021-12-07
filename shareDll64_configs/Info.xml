@@ -1,0 +1,10 @@
+Downloads the TRICKBOT loader, transfers over to ADMIN shares and creates persistence via services using a naming convention from the list "ControlInfoService" etc - needs confirming. Also note the 'WormShare' function name.
+
+Other OSINT analysis:
+
+This module appears to be meant to be used in tandem with the worm32Dll module to spread Trickbot across local networks and shares via ETERNALBLUE SMB exploit and LDAP queries. Creates a service with one of the names from the quoted list.
+The Admin$ shares are used by Trickbot once it has brute forced the local administrator password. A file share server has an IPC$ share that Trickbot queries to get a list of all endpoints that connect to it.
+
+
+hxxp://54.38.127.23/radiance.png
+escaped.exe

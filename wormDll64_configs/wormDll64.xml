@@ -1,0 +1,24 @@
+hxxp://54.38.127.23/worming.png
+{001677D0-FD16-11CE-ABC4-02608C9E7553}
+{00020404-0000-0000-C000-000000000046}
+{109BA8EC-92F0-11D0-A790-00C04FD8D5A8}
+name
+(objectCategory=computer)
+dNSHostName
+(&(objectCategory=computer)(userAccountControl:1.2.840.113556.1.4.803:=8192))
+		*****MACHINE IN DOMAIN*****
+LDAP://%ls
+		*****MACHINE IN WORKGROUP*****
+SMBs
+pysmb
+SMBr
+NT LM 0.12
+SMBt
+SMBs
+SMBs
+Windows 7
+2008
+Vista
+Windows 5
+2003
+\\%s\IPC$

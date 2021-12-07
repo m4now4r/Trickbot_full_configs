@@ -1,0 +1,53 @@
+!!""##$$%%&&''(())**++,,--..//00112233445566778899SQLite format 3
+SQLITE_
+2017-02-13 16:02:40 ada05cfa86ad7f5645450ac7a2a21c9aa6e57d2c
+Looking for %s
+%s not found
+Browser exec is: %s
+ as 
+conf.name
+conf.grabbed
+Getting cookies
+attempt %d. Cookies not found
+Getting html5 local storage
+attempt %d. Local Storage not found
+Getting browser history
+attempt %d. History not found
+Getting flash lso files
+basic_string::_M_construct null not valid
+InternetExplorer
+unsupported OS
+SOFTWARE\Microsoft\Internet Explorer\svcVersion
+SOFTWARE\Microsoft\Internet Explorer\Version
+registry access
+Found version %s
+Version %d is not supported
+/internet explorer/iexplore.exe 
+basic_string::_M_construct null not valid
+SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\User Shell Folders\Cookies
+registry cookies path
+HTTP/1.1 200 OK
+Server: grabber
+IE compatible mode grabbing...
+Have a nice day
+error listenning
+Trying browser communication... please wait
+magic %d
+HiddenDesktop
+{URL}
+http.userAgent
+Success
+Could not gather browser data
+Compatible mode grabbing is not finished!
+127.0.0.1
+appro@openssl.org
+http://127.0.0.1
+http://www.phreedom.org/md5)
+http://bugreports.qt.io/
+http://www.openssl.org/support/faq.html
+http://www.w3.org/XML/1998/namespace
+http://www.w3.org/2000/xmlns/
+http://gcc.gnu.org/bugs.html):
+C:\temp\qt-common
+C:\temp\qt-user
+c:\users\root\appdata\local\microsoft\windows\webcache\webcachev01.dat

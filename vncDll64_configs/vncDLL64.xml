@@ -1,0 +1,26 @@
+185.172.129.11
+RSDS/
+C:\Users\MaxMikhaylov\Documents\Visual Studio 2010\MMVNC.PROXY\VNCSRV\x64\Release\VNCSRV.pdb
+vncsrv.dll
+"WinSta0\\AlterDesk01"
+" -new -noframemerging http://www.google.com"
+"Chrome_WidgetWin"
+" --allow-no-sandbox-job --no-sandbox --disable-3d-apis --disable-accelerated-layers --disable-accelerated-plugins --disable-audio --disable-gpu --disable-d3d11 --disable-accelerated-2d-canvas"
+"MozillaWindowClass"
+" -safe-mode"
+" taskschd.msc"
+" /K schtasks.exe |more"
+"SysListView32"
+"IE.HTTP\\shell\\open\\command"
+"EDGE\\shell\\open\\command"
+"\\shell\\open\\command"
+"ChromeHTML"
+"FirefoxHTML"
+"\\mmc.exe"
+"\\cmd.exe"
+"\\explorer.exe"
+"\\Microsoft Office\\Office16\\outlook.exe"
+"\\Microsoft Office\\Office15\\outlook.exe"
+"\\Microsoft Office\\Office14\\outlook.exe"
+"\\Microsoft Office\\Office12\\outlook.exe"
+"\\Microsoft Office\\Office11\\outlook.exe"

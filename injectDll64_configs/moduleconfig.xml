@@ -1,0 +1,13 @@
+<moduleconfig>
+  <sys>yes</sys>
+  <needinfo name="id"/>
+  <needinfo name="ip"/>
+  <autoconf>
+    <conf ctl="dinj" file="dinj" period="20"/>
+    <conf ctl="sinj" file="sinj" period="20"/>
+    <conf ctl="dpost" file="dpost" period="60"/>
+  </autoconf>
+</moduleconfig>
+ascii,81,-,x,Software\Policies\Google\Chrome\CertificateTransparencyEnforcementDisabledForUrls
+ascii,81,-,x,Software\Policies\Google\Chrome\CertificateTransparencyEnforcementDisabledForUrls
+ascii,81,-,x,Software\Policies\Google\Chrome\CertificateTransparencyEnforcementDisabledForUrls

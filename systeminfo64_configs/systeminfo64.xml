@@ -1,0 +1,23 @@
+SELECT * FROM Win32_OperatingSystem
+SELECT * FROM Win32_Processor
+SELECT * FROM Win32_ComputerSystem
+SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall
+
+u"SELECT * FROM Win32_OperatingSystem"
+u"CSDVersion"
+u"SELECT * FROM Win32_Processor"
+u"<cpu>%s</cpu>\r\n"
+u"SELECT * FROM Win32_ComputerSystem"
+u"<ram>%s</ram>\r\n"
+u"<users>\r\n"
+u"<user>%s</user>\r\n"
+u"</users>\r\n"
+u"DisplayName"
+u"SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall"
+u"<installed>\r\n"
+u"DisplayName"
+u"<program>%s</program>\r\n"
+u"</installed>\r\n"
+u"DisplayName"
+u"DisplayName"
+u"<service>%s</service>\r\n"

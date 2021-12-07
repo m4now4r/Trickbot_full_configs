@@ -1,0 +1,17 @@
+Ports:
+     21/tcp MikroTik router ftpd (6.43.2)
+   2000/tcp MikroTik bandwidth-test server
+   8080/tcp MikroTik http proxy
+Ports:
+     21/tcp MikroTik router ftpd (6.42.5)
+   2000/tcp MikroTik bandwidth-test server
+   8080/tcp MikroTik http proxy
+Ports:
+   2000/tcp MikroTik bandwidth-test server
+Ports:
+     21/tcp MikroTik router ftpd (6.43.12)
+   2000/tcp MikroTik bandwidth-test server
+   8080/tcp MikroTik http proxy
+Ports:
+     21/tcp MikroTik router ftpd (6.40.4)
+   2000/tcp MikroTik bandwidth-test server

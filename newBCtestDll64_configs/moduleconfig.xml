@@ -1,0 +1,1 @@
+<moduleconfig><autostart>yes</autostart><sys>yes</sys><needinfo name = "id"/><needinfo name = "ip"/><autoconf><conf ctl = "setconf" file = "bcconfig" period = "90"/></autoconf></moduleconfig>
