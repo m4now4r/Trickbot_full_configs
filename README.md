@@ -10,14 +10,14 @@ Decoders for TrickBot's elements
 trick_decoder.py - decodes TrickBot's core modules (32/64-bit bots) - from resources of the TrickBot loader executable (obsolete, works for the first version of TrickBot)
 trick_config_decoder.py - decodes TrickBot's hardcoded configuration (from the resource) + downloaded modules and their configuration
 trick_settings_decoder.py - decodes BotKey and mcconfig from the settings file (i.e. settings.ini dropped in the TrickBot installation directory)
-make_bot_key.cpp - a keygen for BotKey (must be run on the infected machine). Compiled version: make_bot_key.exe
+make_bot_key.cpp - a keygen for BotKey (must be run on the infected machine). Compiled version: https://goo.gl/7Sf1E1
 
 The BotKey can be obtained in two ways:
 
 decoded:
 Use trick_settings_decoder.py and the settings file dropped by TrickBot.
 generated:
-Compile make_bot_key.cpp (or download make_bot_key.exe ) and run it on the same machine, where the encrypted files were dropped.
+Compile make_bot_key.cpp (or download https://goo.gl/7Sf1E1 ) and run it on the same machine, where the encrypted files were dropped.
 Then, you can pass the obtained key to trick_config_decoder.py.
 
 Example:
