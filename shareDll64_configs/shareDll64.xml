@@ -2,7 +2,7 @@ create service?
 Open sc %d
 Start sc 0x%x
 Create sc 0x%x
-hxxp://54.38.127[.]23/radiance.png
+hxxp://54.38.127.23/radiance.png
 %s\C$\escaped.exe
 ControlInfoService 
 %SystemRoot%\system32\escaped.exe
