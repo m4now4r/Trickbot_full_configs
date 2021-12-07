@@ -1,5 +1,4 @@
-   Trickbot_configs
-    +DLL
+   Trickbot_configs + DLL Files
 
 
    https://github.com/hasherezade/malware_analysis
